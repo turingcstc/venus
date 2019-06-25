@@ -1,0 +1,100 @@
+/* from material typography   
+font-style: normal;
+font-variant-ligatures: normal;
+font-variant-caps: normal;
+font-variant-numeric: normal;
+font-variant-east-asian: normal;
+font-weight: 400;
+font-stretch: normal;
+font-size: 14px;
+line-height: 20px; */
+
+// font-family: $ve-font-family-base;
+// font-size: $ve-font-size-14;
+// font-weight: $ve-font-weight-normal;
+// line-height: $ve-font-size-14 * 1.5;
+
+.ve-heading-sm {
+    font-size: $ve-heading-sm-font-size;
+    font-weight: $ve-heading-sm-font-weight;
+    line-height: $ve-heading-sm-line-height;
+}
+
+.ve-heading-sm-plus {
+    font-size: $ve-heading-sm-plus-font-size;
+    font-weight: $ve-heading-sm-plus-font-weight;
+    line-height: $ve-heading-sm-plus-line-height;
+}
+
+.ve-heading-md {
+    font-size: $ve-heading-md-font-size;
+    font-weight: $ve-heading-md-font-weight;
+    line-height: $ve-heading-md-line-height;
+}
+
+
+.ve-heading-lg {
+    font-size: $ve-heading-lg-font-size;
+    font-weight: $ve-heading-lg-font-weight;
+    line-height: $ve-heading-lg-line-height;
+}
+
+.ve-heading-xl {
+    font-size: $ve-heading-xl-font-size;
+    font-weight: $ve-heading-xl-font-weight;
+    line-height: $ve-heading-xl-line-height;
+}
+
+.ve-heading-2xl {
+    font-size: $ve-heading-2xl-font-size;
+    font-weight: $ve-heading-2xl-font-weight;
+    line-height: $ve-heading-2xl-line-height;
+}
+
+.ve-heading-3xl {
+    font-size: $ve-heading-3xl-font-size;
+    font-weight: $ve-heading-3xl-font-weight;
+    line-height: $ve-heading-3xl-line-height;
+}
+
+.ve-font-xs {
+    font-size: $ve-font-xs-font-size;
+    font-weight: $ve-font-xs-font-weight;
+    line-height: $ve-font-xs-line-height;
+}
+
+.ve-font-md {
+    font-size: $ve-font-md-font-size;
+    font-weight: $ve-font-md-font-weight;
+    line-height: $ve-font-md-line-height;
+}
+
+.ve-font-sm {
+    font-size: $ve-font-sm-font-size;
+    font-weight: $ve-font-sm-font-weight;
+    line-height: $ve-font-sm-line-height;
+}
+
+.ve-font-sm-plus {
+    font-size: $ve-font-sm-plus-font-size;
+    font-weight: $ve-font-sm-plus-font-weight;
+    line-height: $ve-font-sm-plus-line-height;
+}
+
+.ve-font-lg {
+    font-size: $ve-font-lg-font-size;
+    font-weight: $ve-font-lg-font-weight;
+    line-height: $ve-font-lg-line-height;
+}
+
+// Weight and italics
+.ve-font-weight-lighter     { font-weight: $ve-font-weight-lighter !important; }
+.ve-font-weight-bolder      { font-weight: $ve-font-weight-bolder !important; }
+
+.ve-font-weight-light       { font-weight: $ve-font-weight-light !important; }
+.ve-font-weight-normal      { font-weight: $ve-font-weight-normal !important; }
+.ve-font-weight-medium      { font-weight: $ve-font-weight-medium !important; }
+.ve-font-weight-semibold    { font-weight: $ve-font-weight-semibold !important; }
+.ve-font-weight-bold        { font-weight: $ve-font-weight-bold !important; }
+.ve-font-italic             { font-style: italic !important; }
+

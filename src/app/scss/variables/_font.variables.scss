@@ -1,0 +1,114 @@
+//ref:
+// bootstrap
+//https://github.com/twbs/bootstrap/blob/v4-dev/scss/_type.scss
+//http://getbootstrap.com/docs/4.1/content/reboot/
+
+//sap
+//https://experience.sap.com/fiori-design-web/typography/
+//https://experience.sap.com/72/#section1
+
+//microsoft
+//https://developer.microsoft.com/en-us/fabric#/styles/typography
+//https://docs.microsoft.com/en-us/windows/uwp/design/style/typography
+
+//material
+//https://github.com/angular/material2/blob/master/src/lib/core/typography/_typography.scss
+//https://material.io/design/typography/the-type-system.html#
+
+//VMWare
+//https://vmware.github.io/clarity/documentation/v0.13/typography
+
+// IBM
+//http://www.carbondesignsystem.com/guidelines/typography/overview
+//https://www.ibm.com/design/language/experience/visual/typography/
+
+//salesforce
+//https://www.lightningdesignsystem.com/guidelines/typography/
+
+// base
+//$ve-font-family-base:          $font-family-sans-serif !default;
+
+//https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
+/* Keyword values relative to the parent */
+//One font weight lighter than the parent element (among the available weights of the font).
+$ve-font-weight-lighter:         lighter !default;
+//One font weight heavier than the parent element (among the available weights of the font).
+$ve-font-weight-bolder:          bolder !default;
+
+$ve-font-weight-light:           300 !default;
+$ve-font-weight-normal:          400 !default;
+$ve-font-weight-medium:          500 !default;
+$ve-font-weight-semibold:        600 !default;
+$ve-font-weight-bold:            700 !default;
+
+$ve-font-size-base:     1rem !default;  // Assumes the browser default, typically `16px`
+$ve-font-weight-base:   $ve-font-weight-normal !default;
+$ve-line-height-base:   1.5 !default;
+
+$ve-font-size-11:  ($ve-font-size-base * 0.6875) !default;
+$ve-font-size-12:  ($ve-font-size-base * 0.75) !default;
+$ve-font-size-13:  ($ve-font-size-base * 0.813) !default;
+$ve-font-size-14:  ($ve-font-size-base * 0.875) !default;
+$ve-font-size-16:  $ve-font-size-base !default;
+$ve-font-size-18:  ($ve-font-size-base * 1.125) !default;
+$ve-font-size-20:  ($ve-font-size-base * 1.25) !default;
+$ve-font-size-24:  ($ve-font-size-base * 1.5) !default;
+$ve-font-size-28:  ($ve-font-size-base * 1.75) !default;
+$ve-font-size-32:  ($ve-font-size-base * 2) !default;
+$ve-font-size-36:  ($ve-font-size-base * 2.25) !default;
+$ve-font-size-42:  ($ve-font-size-base * 2.625) !default;
+$ve-font-size-48:  ($ve-font-size-base * 3) !default;
+$ve-font-size-54:  ($ve-font-size-base * 3.375) !default;
+$ve-font-size-60:  ($ve-font-size-base * 3.75) !default;
+$ve-font-size-68:  ($ve-font-size-base * 4.25) !default;
+$ve-font-size-76:  ($ve-font-size-base * 4.75) !default;
+$ve-font-size-84:  ($ve-font-size-base * 5.25) !default;
+$ve-font-size-92:  ($ve-font-size-base * 5.75) !default;
+
+// 标准序号：3xs 2xs xs sm md lg xl 2xl 3xl
+// heading  
+$ve-heading-sm-font-size:       $ve-font-size-12 !default;
+$ve-heading-sm-plus-font-size:  $ve-font-size-13 !default;
+$ve-heading-md-font-size:       $ve-font-size-14 !default;
+$ve-heading-lg-font-size:       $ve-font-size-base !default;
+$ve-heading-xl-font-size:       $ve-font-size-18 !default;
+$ve-heading-2xl-font-size:      $ve-font-size-20 !default;
+$ve-heading-3xl-font-size:      $ve-font-size-24 !default;
+
+$ve-heading-sm-line-height:         ($ve-heading-sm-font-size * 1.25) !default;
+$ve-heading-sm-plus-line-height:    ($ve-heading-sm-plus-font-size * 1.25) !default;
+$ve-heading-md-line-height:         ($ve-heading-md-font-size * 1.25) !default;
+$ve-heading-lg-line-height:         ($ve-heading-lg-font-size * 1.25) !default;
+$ve-heading-xl-line-height:         ($ve-heading-xl-font-size * 1.25) !default;
+$ve-heading-2xl-line-height:        ($ve-heading-2xl-font-size * 1.25) !default;
+$ve-heading-3xl-line-height:        ($ve-heading-3xl-font-size * 1.25) !default;
+
+$ve-heading-sm-font-weight:      $ve-font-weight-semibold !default;
+$ve-heading-sm-plus-font-weight: $ve-font-weight-semibold !default;
+$ve-heading-md-font-weight:      $ve-font-weight-semibold !default;
+$ve-heading-lg-font-weight:      $ve-font-weight-semibold !default;
+$ve-heading-xl-font-weight:      $ve-font-weight-semibold !default;
+$ve-heading-2xl-font-weight:     $ve-font-weight-semibold !default;
+$ve-heading-3xl-font-weight:     $ve-font-weight-semibold !default;
+
+// body font
+// Should only be used at sizes greater than or equal to 18px / 1.125rem 用 $ve-font-weight-light
+
+$ve-font-xs-font-size:      $ve-font-size-11 !default;
+$ve-font-sm-font-size:      $ve-font-size-12 !default;
+$ve-font-sm-plus-font-size: $ve-font-size-13 !default;
+$ve-font-md-font-size:      $ve-font-size-14 !default;
+$ve-font-lg-font-size:      $ve-font-size-16 !default;
+
+$ve-font-xs-line-height :       ($ve-font-xs-font-size * 1.5) !default;
+$ve-font-sm-line-height :       ($ve-font-sm-font-size * 1.5) !default;
+$ve-font-sm-plus-line-height :  ($ve-font-sm-plus-font-size * 1.5) !default;
+$ve-font-md-line-height :       ($ve-font-md-font-size * 1.5) !default;
+$ve-font-lg-line-height :       ($ve-font-lg-font-size * 1.5) !default;
+
+$ve-font-xs-font-weight :       $ve-font-weight-normal !default;
+$ve-font-sm-font-weight :       $ve-font-weight-normal !default;
+$ve-font-sm-plus-font-weight :  $ve-font-weight-normal !default;
+$ve-font-md-font-weight :       $ve-font-weight-normal !default;
+$ve-font-lg-font-weight :       $ve-font-weight-normal !default;
