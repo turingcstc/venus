@@ -4,7 +4,7 @@
 |:------|:------:|:------|
 | Angular Material | 8.0.1 | https://material.angular.io |
 | Bootstrap | 4.3.1 | https://getbootstrap.com |
-| hammerjs | 2.0.8 | http://hammerjs.github.io/ https://material.angular.io/guide/getting-started#step-5-gesture-support |
+| hammerjs | 2.0.8 | https://material.angular.io/guide/getting-started#step-5-gesture-support http://hammerjs.github.io/ |
 
 
 # commands
