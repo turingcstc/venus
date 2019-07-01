@@ -16,3 +16,5 @@
 - [angular material](https://github.com/angular/components/blob/master/src/cdk/layout/breakpoints.ts)
 
 - [CSS Media Queries & Using Available Space](https://css-tricks.com/css-media-queries/)
+
+- [favicon Generator](https://realfavicongenerator.net/)
