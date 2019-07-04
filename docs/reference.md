@@ -18,3 +18,13 @@
 - [CSS Media Queries & Using Available Space](https://css-tricks.com/css-media-queries/)
 
 - [favicon Generator](https://realfavicongenerator.net/)
+
+- [MDN web docs @font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+
+- [Using @font-face](https://css-tricks.com/snippets/css/using-font-face/)
+
+- [What’s the deal with declaring font properties on @font-face?](https://css-tricks.com/whats-deal-declaring-font-properties-font-face/)
+
+- [IBM plex github](https://github.com/IBM/plex)
+- [Adobe Fonts](https://fonts.adobe.com)
+- [System Font Stack](https://css-tricks.com/snippets/css/system-font-stack/)
